@@ -1,0 +1,9 @@
+[package]
+name = "old_reflect"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/MrGVSV/bevy.git", rev = "aa5178e7736a6f8252e10e543e52722107649d3f", default-features = false }

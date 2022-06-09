@@ -1,0 +1,17 @@
+[package]
+name = "bevy_reflect_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+new_reflect = {path = "new_reflect"}
+old_reflect = {path = "old_reflect"}
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "reflect_new"
+harness = false
